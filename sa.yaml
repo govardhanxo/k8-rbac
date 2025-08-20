@@ -29,7 +29,8 @@ roleRef:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: aws-cli 
+  name: aws-cli
+  namespace: roboshop 
   labels: 
     purpose: sa 
 spec:
